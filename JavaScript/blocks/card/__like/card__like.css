@@ -1,0 +1,17 @@
+.card__like{
+    width: 22px;
+    height: 19px;
+    margin-right: 20px;
+    margin-top: 25px;
+    border: 0;
+    background: #fff;
+    background-image: url(/images/vector/heart.png);
+    background-size: cover;
+    align-self: center;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.card__like:hover{
+    opacity: .5;
+}
